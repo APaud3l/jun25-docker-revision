@@ -1,0 +1,27 @@
+{
+  "name": "jun25-docker-revision",
+  "version": "1.0.0",
+  "description": "Revision of docker concepts including Dockerfile and docker-compose.yaml",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node server.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/APaud3l/jun25-docker-revision.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/APaud3l/jun25-docker-revision/issues"
+  },
+  "homepage": "https://github.com/APaud3l/jun25-docker-revision#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.2.1"
+  }
+}
