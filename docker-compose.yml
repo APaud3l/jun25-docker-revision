@@ -8,7 +8,10 @@ services:
     environment:
       NODE_ENV: production
       PORT: 3000
-      restart: unless-stopped
+      MONGO_URL: mongodb://mongo:27017/testdb
+    depends_on:
+      - mongo
+    restart: unless-stopped
   
   mongo:
     image: mongo
